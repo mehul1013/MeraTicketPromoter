@@ -21,7 +21,6 @@ class CityModel: Mappable {
         return mapper
     }
     
-    
     required init?(map: Map) {
         mapping(map: map)
     }

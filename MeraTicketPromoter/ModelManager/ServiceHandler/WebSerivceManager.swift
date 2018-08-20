@@ -327,10 +327,7 @@ class WebSerivceManager:NSObject {
         
         //Header
         //HeaderClass.objHeaderClass.HeaderDictionary = ["Authorization" : "Bearer 6aeb3973-e5af-4585-840f-14dca848f05a"]
-        
-        HeaderClass.objHeaderClass.HeaderDictionary = ["Authorization" : "Bearer \(AppUtils.APPDELEGATE().token)",
-                                                       "Content-Type" : "application/json"]
-        
+                
         /*HeaderClass.objHeaderClass.HeaderDictionary = ["Authorization" : "Bearer 80b203a0-4d81-4a7a-b3f0-ccb3b4ed7ec4",
                                                        "Content-Type" : "application/json"]*/
         print(HeaderClass.objHeaderClass.HeaderDictionary)

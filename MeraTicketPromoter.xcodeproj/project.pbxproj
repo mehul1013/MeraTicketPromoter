@@ -17,7 +17,6 @@
 		0E1143E42129B7DE006FE254 /* HeaderClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11439F2129B7DC006FE254 /* HeaderClass.swift */; };
 		0E1143E52129B7DE006FE254 /* WebSerivceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1143A02129B7DC006FE254 /* WebSerivceManager.swift */; };
 		0E1143E62129B7DE006FE254 /* WebServiceReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1143A12129B7DD006FE254 /* WebServiceReponse.swift */; };
-		0E1143E72129B7DE006FE254 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1143A32129B7DD006FE254 /* CartModel.swift */; };
 		0E1143E82129B7DE006FE254 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1143A42129B7DD006FE254 /* Category.swift */; };
 		0E1143E92129B7DE006FE254 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1143A52129B7DD006FE254 /* CityModel.swift */; };
 		0E1143EA2129B7DE006FE254 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1143A62129B7DD006FE254 /* Item.swift */; };
@@ -75,7 +74,6 @@
 		0E11439F2129B7DC006FE254 /* HeaderClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderClass.swift; sourceTree = "<group>"; };
 		0E1143A02129B7DC006FE254 /* WebSerivceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSerivceManager.swift; sourceTree = "<group>"; };
 		0E1143A12129B7DD006FE254 /* WebServiceReponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceReponse.swift; sourceTree = "<group>"; };
-		0E1143A32129B7DD006FE254 /* CartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
 		0E1143A42129B7DD006FE254 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		0E1143A52129B7DD006FE254 /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		0E1143A62129B7DD006FE254 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -135,6 +133,7 @@
 		0E1144102129BA05006FE254 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		0E1144122129BA56006FE254 /* ScanCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCode.swift; sourceTree = "<group>"; };
 		0E1144142129BA90006FE254 /* CodeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDetail.swift; sourceTree = "<group>"; };
+		0EE352A3212B0014004A9B87 /* MeraTicketPromoter_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeraTicketPromoter_Header.h; sourceTree = "<group>"; };
 		53593118BA8E720A9D2E9CE9 /* Pods_MeraTicketPromoter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeraTicketPromoter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD943A6CD6F489863B4E2FE /* Pods-MeraTicketPromoter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraTicketPromoter.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeraTicketPromoter/Pods-MeraTicketPromoter.release.xcconfig"; sourceTree = "<group>"; };
 		DB40232E0BDEB7676C7B5AB3 /* Pods-MeraTicketPromoter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraTicketPromoter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeraTicketPromoter/Pods-MeraTicketPromoter.debug.xcconfig"; sourceTree = "<group>"; };
@@ -188,6 +187,7 @@
 				0E11438E2129B4B4006FE254 /* Assets.xcassets */,
 				0E1143902129B4B4006FE254 /* LaunchScreen.storyboard */,
 				0E1143932129B4B4006FE254 /* Info.plist */,
+				0EE352A3212B0014004A9B87 /* MeraTicketPromoter_Header.h */,
 				0E1143D32129B7DD006FE254 /* AppResources */,
 				0E11439D2129B7DC006FE254 /* ModelManager */,
 				0E1143AD2129B7DD006FE254 /* ThirdParty */,
@@ -238,7 +238,6 @@
 		0E1143A22129B7DD006FE254 /* WebserviceModels */ = {
 			isa = PBXGroup;
 			children = (
-				0E1143A32129B7DD006FE254 /* CartModel.swift */,
 				0E1143A42129B7DD006FE254 /* Category.swift */,
 				0E1143A52129B7DD006FE254 /* CityModel.swift */,
 				0E1143A62129B7DD006FE254 /* Item.swift */,
@@ -513,7 +512,6 @@
 				0E1143F12129B7DE006FE254 /* MBProgressHUD.m in Sources */,
 				0E1143FD2129B7DE006FE254 /* UIImage+MultiFormat.m in Sources */,
 				0E1143FB2129B7DE006FE254 /* UIButton+WebCache.m in Sources */,
-				0E1143E72129B7DE006FE254 /* CartModel.swift in Sources */,
 				0E1143F22129B7DE006FE254 /* MKAnnotationView+WebCache.m in Sources */,
 				0E1143F82129B7DE006FE254 /* SDWebImageDownloaderOperation.m in Sources */,
 				0E1143E52129B7DE006FE254 /* WebSerivceManager.swift in Sources */,
@@ -675,6 +673,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.meraticket.MeraTicketPromoter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = MeraTicketPromoter/MeraTicketPromoter_Header.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -696,6 +695,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.meraticket.MeraTicketPromoter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = MeraTicketPromoter/MeraTicketPromoter_Header.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -12,6 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var strQRCodeValue: String = ""
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -41,6 +42,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    //MARK: - Get Current View Controller
+    func getCurrentViewController() -> UIViewController {
+        //let vc = self.window?.rootViewController
+        let navCTR = UIApplication.shared.keyWindow?.rootViewController as! UINavigationController
+        let vc = navCTR.visibleViewController
+        return vc!
+    }
 }
 
